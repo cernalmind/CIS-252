@@ -8,4 +8,4 @@ Index
 -----
 
 ###Chapter 1
-- number_guess.cpp
+- [number_guess.cpp](https://github.com/ptrckbrwn/CIS-252/blob/master/number_guess.cpp)
