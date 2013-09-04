@@ -1,11 +1,10 @@
-/*-------------------------------------------------
+/*------------------------------------------------------------------
 Author:    Patrick Brown
 Date:      2013-09-03
-Objective: Simple game where player guesses a
-           random number and the computer tells
-           them if their guess was too low or too
+Objective: Simple game where player guesses a random number and the
+           computer tells them if their guess was too low or too
            high.
--------------------------------------------------*/
+------------------------------------------------------------------*/
 #include <iostream>
 #include <stdlib.h>
 
@@ -24,7 +23,6 @@ int main()
 
     while(guess != number)
     {
-
         std::cout << "Enter your guess: ";
         std::cin >> guess;
 
