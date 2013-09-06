@@ -28,4 +28,6 @@ int main(){
   } else {
     cout << "These numbers are equal." << endl;
   }
+
+  return 0;
 }

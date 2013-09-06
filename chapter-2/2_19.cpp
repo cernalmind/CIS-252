@@ -62,4 +62,6 @@ int main()
 
   // the largest
   cout << "The largest: " << largest(first, second, third) << endl;
+
+  return 0;
 }

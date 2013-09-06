@@ -21,4 +21,6 @@ int main()
   } else {
     cout << input << " is an odd number." << endl;
   }
+
+  return 0;
 }
