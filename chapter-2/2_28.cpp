@@ -12,10 +12,10 @@ using namespace std;
 int main()
 {
   int input;
+  int ones, tens, hundreds, thousands, ten_thousands;
+
   cout << "Input: ";
   cin >> input;
-
-  int ones, tens, hundreds, thousands, ten_thousands;
 
   ones = input%10;
   tens = input%100 - ones;
