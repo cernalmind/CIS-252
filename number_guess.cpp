@@ -11,30 +11,29 @@ Objective: Simple game where player guesses a random number and the
 
 int main()
 {
-    int number;
-    int guess;
+  int number;
+  int guess;
 
-    // random seed
-    srand(time(NULL));
+  // random seed
+  srand(time(NULL));
 
-    number = rand() % 100 + 1;
+  number = rand() % 100 + 1;
 
-    std::cout << "I'm thinking of a number between 1 and 100." << std::endl;
+  std::cout << "I'm thinking of a number between 1 and 100." << std::endl;
 
-    while(guess != number)
-    {
-        std::cout << "Enter your guess: ";
-        std::cin >> guess;
+  while(guess != number)
+  {
+    std::cout << "Enter your guess: ";
+    std::cin >> guess;
 
-        if(guess < number)
-        {
-            std::cout << "Too low!" << std::endl;
-        } else if(guess > number) {
-            std::cout << "Too high!" << std::endl;
-        }
+    if(guess < number){
+      std::cout << "Too low!" << std::endl;
+    } else if(guess > number) {
+      std::cout << "Too high!" << std::endl;
     }
+  }
 
-    std::cout << "Congrats: You win!" << std::endl;
+  std::cout << "Congrats: You win!" << std::endl;
 
-    return 0;
+  return 0;
 }
