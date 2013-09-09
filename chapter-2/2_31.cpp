@@ -82,4 +82,6 @@ int main()
        << "\tEach pay: $" << calculate_expenses()/4 << endl
        << "5 people: $" << calculate_savings(5)
        << "\tEach pay: $" << calculate_expenses()/5 << endl;
+
+  return 0;
 }
