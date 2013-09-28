@@ -16,3 +16,9 @@ Index
 - 2.24 [Odd/Even](https://github.com/ptrckbrwn/CIS-252/blob/master/chapter-2/2_24.cpp)
 - 2.28 [Digits of an Integer](https://github.com/ptrckbrwn/CIS-252/blob/master/chapter-2/2_28.cpp)
 - 2.31 [Car Pool Savings Calculator](https://github.com/ptrckbrwn/CIS-252/blob/master/chapter-2/2_31.cpp)
+
+###Chapter 3
+- 3.11 [Modifying Class GradeBook](https://github.com/ptrckbrwn/CIS-252/blob/master/chapter-3/3_11.cpp)
+- 3.14
+- 3.16
+- 3.17

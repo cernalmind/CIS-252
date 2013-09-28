@@ -5,7 +5,7 @@ Objective: Write a program that inputs a five-digit integer,
            separates the integer into its digits and prints them
            separated by three spaces each.
 ------------------------------------------------------------------*/
-#import <iostream>
+#include <iostream>
 
 using namespace std;
 

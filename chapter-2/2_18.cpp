@@ -6,7 +6,7 @@ Objective: A program that asks the user to enter two integers,
            number followed by the words "is larger." If the numbers
            are equal, print the message "These numbers are equal."
 ------------------------------------------------------------------*/
-#import <iostream>
+#include <iostream>
 
 using namespace std;
 

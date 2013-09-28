@@ -4,7 +4,7 @@ Date:      2013-09-06
 Objective: A program that reads an integer and determines and prints
            whether it’s odd or even. 
 ------------------------------------------------------------------*/
-#import <iostream>
+#include <iostream>
 
 using namespace std;
 

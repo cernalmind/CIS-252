@@ -5,7 +5,7 @@ Objective: A program that inputs three integers from the keyboard
            and prints the sum, average, product, smallest and
            largest of these numbers. 
 ------------------------------------------------------------------*/
-#import <iostream>
+#include <iostream>
 
 using namespace std;
 
