@@ -11,19 +11,19 @@ GradeBook::GradeBook( string name, string instructor )
 {
   setCourseName( name ); // call set function to initialize courseName
   setInstructorName ( instructor );
-} // end GradeBook constructor
+}
 
 // function to set the course name
 void GradeBook::setCourseName( string name )
 {
   courseName = name; // store the course name in the object
-} // end function setCourseName
+}
 
 // function to get the course name
 string GradeBook::getCourseName()
 {
   return courseName; // return object's courseName
-} // end function getCourseName
+} 
 
 void GradeBook::setInstructorName( string name )
 {
@@ -43,4 +43,4 @@ void GradeBook::displayMessage()
       << "!" << endl;
   cout << "This course presented by " << getInstructorName()
       << "." << endl;
-} // end function displayMessage
+} 
