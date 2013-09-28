@@ -19,6 +19,6 @@ Index
 
 ###Chapter 3
 - 3.11 [Modifying Class GradeBook](https://github.com/ptrckbrwn/CIS-252/blob/master/chapter-3/3_11.cpp)
-- 3.14
+- 3.14 [Employee Class](https://github.com/ptrckbrwn/CIS-252/blob/master/chapter-3/3_11.cpp)
 - 3.16
 - 3.17
