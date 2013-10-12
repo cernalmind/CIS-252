@@ -24,3 +24,96 @@
  * which is widely used in industrial-strength applications.]
  */
 
+#include <iostream>
+#include <string>
+#include <sstream>
+#include <cmath>
+
+
+using namespace std;
+
+string int_to_string(int number)
+{
+  stringstream ss;//create a stringstream
+  ss << number;//add number to the stream
+  return ss.str();//return a string with the contents of the stream
+}
+
+int string_to_int(string input)
+{
+  istringstream buffer(input);
+  int value;
+  buffer >> value;
+  return value; 
+}
+
+
+int encrypt(int input)
+{
+  int input_array [4];
+  string output;
+
+  input_array[0] = input%10;
+  input_array[1] = (input%100 - input_array[0])/10;
+  input_array[2] = (input%1000 - input_array[1] - input_array[0])/100;
+  input_array[3] = (input%10000 - input_array[2] - input_array[1] - input_array[0])/1000;
+
+  for(int i = 0; i < 4; i++){
+    input_array[i] = (input_array[i]+7)%10;
+  }
+
+  output = int_to_string(input_array[2]);
+  output = output + int_to_string(input_array[3]);
+  output = output + int_to_string(input_array[0]);
+  output = output + int_to_string(input_array[1]);
+
+  return string_to_int(output);
+}
+
+int decrypt(int input)
+{
+  int input_array [4];
+  string output;
+
+  input_array[0] = input%10;
+  input_array[1] = (input%100 - input_array[0])/10;
+  input_array[2] = (input%1000 - input_array[1] - input_array[0])/100;
+  input_array[3] = (input%10000 - input_array[2] - input_array[1] - input_array[0])/1000;
+
+  for(int i = 0; i < 4; i++){
+    input_array[i] = (input_array[i]+3)%10;
+  }
+
+  output = int_to_string(input_array[2]);
+  output = output + int_to_string(input_array[3]);
+  output = output + int_to_string(input_array[0]);
+  output = output + int_to_string(input_array[1]);
+
+  return string_to_int(output);
+}
+
+int main()
+{
+  int input;
+  int encrypted_input;
+  int decrypted_input;
+
+  cout << "Enter a 4 digit number: ";
+  cin >> input;
+
+  if(input > 9999){
+    cout << "That number is too large." << endl;
+    return 0;
+  } else if(input < 1000){
+    cout << "That number is too small." << endl;
+    return 0;
+  }
+
+  encrypted_input = encrypt(input);
+  decrypted_input = decrypt(encrypted_input);
+
+  cout << "Encrypted: " << encrypted_input << endl;
+  cout << "Decrypted: " << decrypted_input << endl;
+
+  return 0;
+}

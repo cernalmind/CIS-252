@@ -25,12 +25,12 @@ int main()
 {
   for(int i = 0; i < 16*8; i++){
     if((((i/16)%2 == 0) && (i%2 == 0)) || (((i/16)%2 != 0) && (i%2 != 0))){
-      cout << "*";
+      cout << "*"; // one
     } else {
-      cout << " ";
+      cout << " "; // two
     }
     if(i%16 == 15){
-      cout << endl;
+      cout << endl; // three
     }
   }
   return 0;
