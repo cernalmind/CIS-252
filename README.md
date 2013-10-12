@@ -21,4 +21,9 @@ Index
 - 3.11 [Modifying Class GradeBook](https://github.com/ptrckbrwn/CIS-252/blob/master/chapter-3/3_11.cpp)
 - 3.14 [Employee Class](https://github.com/ptrckbrwn/CIS-252/blob/master/chapter-3/3_13.cpp)
 - 3.16 [Target-Heart-Rate Calculator](https://github.com/ptrckbrwn/CIS-252/blob/master/chapter-3/3_16.cpp)
-- 3.17 [Computerization of Health Records](https://github.com/ptrckbrwn/CIS-252/blob/master/chapter-3/3_17.cpp) 
+- 3.17 [Computerization of Health Records](https://github.com/ptrckbrwn/CIS-252/blob/master/chapter-3/3_17.cpp)
+
+###Chapter 4
+- 4.26 [Palindromes](https://github.com/ptrckbrwn/CIS-252/blob/master/chapter-4/4_26.cpp)
+- 4.28 [Checkerboard Pattern of Asterisks](https://github.com/ptrckbrwn/CIS-252/blob/master/chapter-4/4_28.cpp)
+- 4.35 [Enforcing Privacy with Cryptography](https://github.com/ptrckbrwn/CIS-252/blob/master/chapter-4/4_35.cpp)
