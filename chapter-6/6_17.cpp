@@ -10,7 +10,6 @@
 
 #include <iostream>
 #include <stdlib.h>
-#include <time.h> 
 
 using namespace std;
 
@@ -18,18 +17,23 @@ int main()
 {
     int output;
 
-    /* initialize random seed: */
-    srand (time(NULL));
+    for(int i = 0; i < 10; i++){
+        cout << "---" << endl
+             << " " << i << " " << endl
+             << "---" << endl;
 
-    // a) 2, 4, 6, 8, 10.
-    output = ((rand() % 5) * 2) + 2;
-    cout << output << endl;
+        // a) 2, 4, 6, 8, 10.
+        output = ((rand() % 5) * 2) + 2;
+        cout << output << endl;
 
-    // b) 3, 5, 7, 9, 11.
-    output = ((rand() % 5) * 2) + 3;
-    cout << output << endl;
+        // b) 3, 5, 7, 9, 11.
+        output = ((rand() % 5) * 2) + 3;
+        cout << output << endl;
 
-    // c) 6, 10, 14, 18, 22.
-    output = ((rand() % 5) * 4) + 6;
-    cout << output << endl;
+        // c) 6, 10, 14, 18, 22.
+        output = ((rand() % 5) * 4) + 6;
+        cout << output << endl;
+    }
+
+    return 0;
 }
