@@ -27,3 +27,11 @@ Index
 - 4.26 [Palindromes](https://github.com/ptrckbrwn/CIS-252/blob/master/chapter-4/4_26.cpp)
 - 4.28 [Checkerboard Pattern of Asterisks](https://github.com/ptrckbrwn/CIS-252/blob/master/chapter-4/4_28.cpp)
 - 4.35 [Enforcing Privacy with Cryptography](https://github.com/ptrckbrwn/CIS-252/blob/master/chapter-4/4_35.cpp)
+
+###Chapter 6
+- 6.12 [Parking Fee Calculator](https://github.com/ptrckbrwn/CIS-252/blob/master/chapter-6/6_12.cpp)
+- 6.17 [Random Numbers](https://github.com/ptrckbrwn/CIS-252/blob/master/chapter-6/6_17.cpp)
+- 6.56 Computer-Assisted Instruction
+    - [MathTutor.h](https://github.com/ptrckbrwn/CIS-252/blob/master/chapter-6/6_56/MathTutor.h)
+    - [MathTutor.cpp](https://github.com/ptrckbrwn/CIS-252/blob/master/chapter-6/6_56/MathTutor.cpp)
+    - [main.cpp](https://github.com/ptrckbrwn/CIS-252/blob/master/chapter-6/6_56/main.cpp)
